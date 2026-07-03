@@ -6,7 +6,7 @@ VK_DRIVER_LIB="libvulkan_freedreno.so"
 BLACKLIST_ARCH=x86_64
 
 GIT_URL=https://github.com/bob240/mesa-mirror
-GIT_COMMIT=eb207415120c087efb7bb9e97f23d67f6a93085e
+GIT_COMMIT=bf697ca707efb06d02465cf092f0c9cad2260da3
 
 LDFLAGS="-L$PREFIX/lib -landroid-shmem"
 CPPFLAGS="-D__USE_GNU"
