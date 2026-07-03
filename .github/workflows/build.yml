@@ -41,7 +41,7 @@ jobs:
 
     - name: "Setup Basic Android (x86_64) Runtime Environment (Required for Building x86_64 glib)"
       run: |
-        git clone https://github.com/termux/termux-docker.git
+        git clone https://github.com/bob240/termux-docker.git
         sudo cp -rf termux-docker/system/x86 /mnt/arch/system
         sudo chown -R $(whoami):$(whoami) /mnt/arch/system
         sudo chmod 755 -R /mnt/arch/system
